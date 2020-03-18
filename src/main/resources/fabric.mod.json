@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "notes_plus",
+  "version": "${version}",
+
+  "name": "Notes+",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Sokaren"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/notes_plus/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.notes_plus.notemod"
+    ]
+  },
+  "mixins": [
+    "notes_plus.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.2",
+    "fabric": "*",
+    "minecraft": "1.16-alpha.20.11.a"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

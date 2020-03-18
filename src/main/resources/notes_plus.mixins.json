@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "net.notes_plus.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "noteMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
